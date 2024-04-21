@@ -1,0 +1,18 @@
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    @extend .common-style; // Inherit common styles
+}
+
+.caption h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.caption p {
+    font-size: 30px;
+    opacity: 0.8;
+}
